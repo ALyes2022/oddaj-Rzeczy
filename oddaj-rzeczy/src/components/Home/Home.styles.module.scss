@@ -1,0 +1,106 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+.main {
+  display: flex;
+  background: url(../../assets/HomeHeroImage.jpg) no-repeat fixed left / contain;
+  min-height: 600px;
+}
+.home {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.headercontainer {
+  margin-bottom: 300px;
+  margin-left: 200px;
+}
+
+.buttonsHeader {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  margin: 17px;
+  font-family: $font-base;
+  border: 2px solid transparent;
+  &:hover {
+    border-color: rgb(210, 189, 98);
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+.correctionheaderbuttons {
+  margin-left: 380px;
+}
+
+.headermenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.topmenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: auto;
+  font-family: $font-base;
+  width: 600px;
+
+  li {
+    margin-right: 20px;
+    padding: 5px;
+    border: 2px solid transparent;
+    &:hover {
+      border-color: gray;
+    }
+  }
+}
+.bodysection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-bottom: 200px;
+}
+.bodyitems {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    font-size: 30px;
+    width: 450px;
+    text-align: center;
+    font-family: $font-base;
+    font-weight: bold;
+  }
+}
+.decorationstyling {
+  width: 200px;
+  margin-top: -80px;
+}
+
+.buttonsbottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    margin: 40px;
+    font-family: $font-base;
+    font-size: 27px;
+    text-align: center;
+    width: 140px;
+    border: solid 2px gray;
+    &:hover {
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
