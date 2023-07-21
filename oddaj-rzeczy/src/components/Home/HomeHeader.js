@@ -8,7 +8,7 @@ import HomeHeroImage from '../../assets/HomeHeroImage.jpg'
 const HomeHeader = () => {
   return (
     <>
-      <div className={styles.main}>
+      <section className={styles.main}>
         <div className={styles.home}>
           <div className={styles.headermenu}>
 
@@ -46,7 +46,7 @@ const HomeHeader = () => {
           </div>
         </div>
 
-      </div>
+      </section>
     </>
   )
 }
