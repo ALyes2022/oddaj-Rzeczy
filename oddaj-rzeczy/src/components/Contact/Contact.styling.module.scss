@@ -1,0 +1,136 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+
+.main__container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  background: url(../../assets/BackgroundContactForm.jpg) no-repeat 0px bottom /
+    contain;
+  min-height: 600px;
+  color: $base-color;
+  font-family: $font-base;
+  margin-top: 100px;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 30px;
+    margin: 20px 0px;
+  }
+}
+
+.form__container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.first__last__name__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 200px;
+  .first__name__input__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .first__name__input {
+    height: 35px;
+    width: 180px;
+    border: none;
+    border-bottom: 2px solid $base-color;
+    margin-right: 20px;
+    outline: none;
+    &::placeholder {
+      opacity: 0.4;
+    }
+  }
+  .first__email__input__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .email__input {
+    height: 35px;
+    width: 180px;
+    border: none;
+    border-bottom: 2px solid $base-color;
+    outline: none;
+    &::placeholder {
+      opacity: 0.4;
+    }
+  }
+}
+.messege__container {
+  margin-right: 200px;
+  .message__input__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+  .message__input {
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid $base-color;
+    width: 380px;
+    outline: none;
+    &::placeholder {
+      opacity: 0.4;
+    }
+  }
+}
+.submit__button__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 200px;
+  .submit__button {
+    background-color: $White-background-color;
+    padding: 10px 20px;
+    border: 2px solid $base-color;
+    &:hover {
+      border: 2px solid transparent;
+      background-color: $secondary-color;
+      cursor: pointer;
+    }
+  }
+}
+.icons__social__media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 150px;
+  margin-right: 200px;
+  .instagram {
+    width: 25px;
+    margin-right: 15px;
+    &:hover {
+      cursor: pointer;
+      width: 35px;
+      transition: ease-in-out 0.5s;
+    }
+  }
+  .facebook {
+    width: 25px;
+    &:hover {
+      cursor: pointer;
+      width: 35px;
+      transition: ease-in-out 0.5s;
+    }
+  }
+}
