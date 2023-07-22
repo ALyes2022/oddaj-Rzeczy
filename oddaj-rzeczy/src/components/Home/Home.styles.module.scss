@@ -2,7 +2,7 @@
 @import '../../scss/settings/fonts';
 .main {
   display: flex;
-  background: url(../../assets/HomeHeroImage.jpg) no-repeat fixed left / contain;
+  background: url(../../assets/HomeHeroImage.jpg) no-repeat -200px bottom / contain;
   min-height: 600px;
 }
 .home {
