@@ -2,6 +2,7 @@ import React from 'react';
 import HomeHeader from './HomeHeader';
 import Stats from '../Stats/Stats';
 import Steps from '../Steps/Steps';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <HomeHeader />
       <Stats />
       <Steps />
+      <Contact />
     </>
   )
 }
