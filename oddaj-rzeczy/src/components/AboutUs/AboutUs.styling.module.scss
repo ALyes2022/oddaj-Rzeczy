@@ -1,0 +1,52 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+
+.main__section__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 800px;
+  margin-top: 200px;
+
+  .left__side__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    margin-left: 200px;
+    font-family: $font-base;
+    .header__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      .decoration {
+        width: 200px;
+      }
+    }
+    p {
+      text-align: center;
+      font-size: 25px;
+      margin-top: -50px;
+    }
+    .signature {
+      width: 150px;
+      margin-left: 200px;
+      margin-top: -150px;
+    }
+  }
+
+  .img__right__side__container {
+    img {
+      height: 800px;
+    }
+  }
+}
