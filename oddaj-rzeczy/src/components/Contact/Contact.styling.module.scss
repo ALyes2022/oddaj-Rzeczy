@@ -16,11 +16,16 @@
 .header__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 20px 250px 0px;
   h1 {
     font-size: 30px;
-    margin: 20px 0px;
+    margin-bottom: 10px;
+  }
+  img {
+    margin-right: 35px;
+    width: 200px;
   }
 }
 
@@ -39,6 +44,7 @@
   justify-content: space-around;
   align-items: center;
   margin-right: 200px;
+  margin-top: 30px;
   .first__name__input__container {
     display: flex;
     flex-direction: column;
@@ -51,6 +57,7 @@
     width: 180px;
     border: none;
     border-bottom: 2px solid $base-color;
+    background-color: transparent;
     margin-right: 20px;
     outline: none;
     &::placeholder {
@@ -69,6 +76,7 @@
     border: none;
     border-bottom: 2px solid $base-color;
     outline: none;
+    background-color: transparent;
     &::placeholder {
       opacity: 0.4;
     }
@@ -89,6 +97,7 @@
     border-bottom: 2px solid $base-color;
     width: 380px;
     outline: none;
+    background-color: transparent;
     &::placeholder {
       opacity: 0.4;
     }
